@@ -14,6 +14,7 @@ import TwitterIcon from '../Icons/TwitterIcon';
 import LinkedInIcon from '../Icons/LinkedInIcon';
 import GithubIcon from '../Icons/GithubIcon';
 import FooterLogo from './FooterLogo';
+import NewsletterSubscription from '../Newsletter/NewsletterSubscription';
 
 const Footer = () => {
   return (
@@ -58,6 +59,10 @@ const Footer = () => {
             <li><MdAddCall className='icon' /><span>+1-214-723-889</span></li>
             <li><IoIosMail className='icon' /><span>Contact@foodie.com</span></li>
           </ul>
+        </div>
+        {/* Newsletter Subscription */}
+        <div className='footer-content-newsletter'>
+          <NewsletterSubscription />
         </div>
       </div>
 
